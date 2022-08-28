@@ -133,7 +133,7 @@ h1, h2, h3{
 /* This is wear the header starts */
 
 #header{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/four.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/model11-min.jpg') center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -214,25 +214,6 @@ h1, h2, h3{
 }
 
 
-/* work */
-#work{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/four.jpg') center/cover no-repeat fixed;
-    color: var(--light-color);
-}
-#work .title h2, #work h3{
-    color: var(--light-color);
-}
-#work .title h2::after{
-    background: var(--light-color);
-}
-.work-bottom{
-    margin-top: 4rem;
-    text-align: center;
-}
-.work-bottom > div .icon img{
-    width: 50px;
-    margin: 0 auto 1.7rem auto;
-}
 
 /* contact */
 #contact{
@@ -278,7 +259,7 @@ h1, h2, h3{
 }
 
 #insta{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/insta-pic.jpg') center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/insta-min.jpg') center/cover no-repeat fixed;
     min-height: 65vh;
 }
 #insta .title h2{
