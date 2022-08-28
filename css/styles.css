@@ -322,18 +322,23 @@ h1, h2, h3{
 
 /* Media Queries */
 
-@media(min-width: 350px){
-    #header{
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/model11-min-cropped.jpg') center/cover no-repeat fixed;
-    }
-
+@media(min-width: 450px){
+    
     .work-bottom{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 3rem;
         row-gap: 0;
     }
 }
+@media(max-width: 400px){
+    #header{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/model7-min.jpg') center/cover no-repeat fixed;
+    }
+
+}
+
 @media(max-width:600px){
+
     .toggle-button{
         display:flex;
     }
